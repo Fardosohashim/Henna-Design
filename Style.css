@@ -1,0 +1,129 @@
+img{
+height: 300px;
+width: 20%; 
+margin-left:100px;
+padding-right: 100px;
+  
+}
+
+
+body{
+
+    background-image: url(Images/fardows);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+pre{
+    background-image: url(Images/Snapchat-1934931597.jp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 50%;
+}
+
+tr,th,td{
+
+    
+   /* border-bottom: 2px solid red;*/
+    
+    /*border-radius: 10px;*/
+
+    border-style:solid;
+    
+
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+      
+      border-spacing: 30px;
+}
+
+
+/*tr:nth-child(even){
+    background-color: rgb(192, 199, 197);
+
+}
+td:nth-child(even), th:nth-child(even){
+    background-color:rgb(191, 194, 193);
+    
+}
+tr:hover{background-color: blue;}
+
+*/
+
+
+/*table{
+    border-collapse: collapse;
+}
+*/
+
+ table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*border-collapse: collapse;*/
+    width: 50%;
+    margin:auto;
+}
+td,th{
+    border: 1px solid #d4a33add;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #b1a16cdd;
+}
+
+.HENNADESIGN{
+    background-color: rgb(236, 142, 79);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+button{
+    color:white;
+    background-color: rgb(226, 147, 43);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: white;
+    transition: 1000ms;
+}
+button:hover{
+    color: rgb(226, 153, 43);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: white;
+    transition: 1000ms;
+}
+.HENNA{
+    background-color: rgb(209, 174, 122);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center; 
+}
+.hena{
+    color: rgb(175, 21, 21);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.hena:hover{
+
+
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1000ms;  
+}
+span{
+    color:orange;
+ font-size: 2em;
+}
+
